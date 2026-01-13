@@ -1,0 +1,19 @@
+Day 2: Dataset Collection & Understanding
+•	What is data and dataset
+•	Features and target variable
+•	Types of datasets: structured and unstructured
+•	Common dataset formats (CSV)
+•	Task 1: Search and download a dataset related to Day 1 problem
+•	Task 2: Identify features and target column
+•	Task 3: Write observations about dataset size, columns, and possible issues
+
+
+--> What is data? :
+        raw informartion is called data
+        classified raw information in an organized manner is called a dataset, which is the most important part of training a model.
+--> Target variables and features :
+        >Features : the part of data the model usees for training.
+        >target variables : the part of data which the model have to actually predict.
+--> downloaded the dataset email spam detection which is available on kaggle
+    the features of the datasset taken is the  message(the email message) nd the target variable of this dataset is the category(spam/ham).
+-->the dataset contains about 5500  rows and 2 columns. one says  spam / ham and the  other contains the email text message
