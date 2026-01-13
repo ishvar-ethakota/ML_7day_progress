@@ -1,0 +1,46 @@
+day 1 works given:
+        Day 1: Introduction to Machine Learning
+            •	Understanding what Machine Learning is
+            •	Why Machine Learning is needed
+            •	Types of ML: Supervised, Unsupervised, Reinforcement (overview)
+            •	Basic ML workflow (problem → data → model → prediction)
+            •	Task 1: Write a simple definition of ML in your own words
+            •	Task 2: Identify one real-life problem that can be solved using ML
+            •	Task 3: Define the problem statement, input data, and expected output for that problem
+
+
+-->what is ML (in my own words):
+        ML is training the model to predict the outcomes based on the past data, as it recogenizes the patterns in them and learns from them.
+
+-->An example from my understanding:
+        normal coding : hey computer! if marks>90 grade the student as S grade
+        Machine learning : hey computer! heres the marks of 100 students. go through them and understad the patterns. ill give test u later,predict them.
+
+-->why ML is needed? :
+        from my understanding, ML is needed where prediction is actually needed, not the fixed code which compares values and gives the standard output.
+        example: --> for email spam detection, if we use the traditional method(the coding method), like, if u fund words like lottery, csh prizd, it is a spam, te mailer may change those words, which cant be detected by out code.
+        this is where ml enters, it not only predicts the requirement but also learns the patterns in the data provided.
+
+-->Types of ML:
+        ->Supervised- model learns through data which already has answers.
+        ->Unsupervised - model learns through data ehich doesnt contain answers but groups similar type of data intoo entitis called clusters.
+        ->Reinforcement- model learns through trial and error method, which receives rewards for the correct path chosen and penalties for the wrong ones.
+
+--> Basic ML workflow:
+        > Identify the problem
+        > Collect the required data
+        > Clean the data
+        > split the data into text and train 
+        > choose the model
+        > Train the model
+        > Test the accuracy
+
+-->problem chosen : 
+        Email Spam Detection using Machine Learning
+        Description:
+                we receive a large number of unwanted emails every day. Traditional rule-based systems fail to detect new spam patterns as spammers frequently change words and formats. Machine Learning can be used to automatically identify and filter spam emails by learning patterns from historical email data.
+        > Input data : 
+                -Email text content (message body)
+                -previous email records labeled as spam or not spam
+        > Expected Output
+                -Email is spam or not spam.
