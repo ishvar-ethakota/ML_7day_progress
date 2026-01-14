@@ -1,0 +1,22 @@
+Day 3: NumPy Essentials for ML
+•	Why NumPy is used in ML
+•	NumPy arrays vs Python lists
+•	Array creation, shape, indexing
+•	Basic mathematical operations
+•	Task 1: Load dataset values into NumPy arrays
+•	Task 2: Perform basic operations (mean, min, max) on numerical columns
+•	Task 3: Prepare feature and target arrays using NumPy
+
+On Day 3, I explored the basics of NumPy and its role in Machine Learning.
+NumPy is used in Python for fast numerical calculations and for working with multi-dimensional arrays, which are commonly used in ML.
+Compared to Python lists, NumPy arrays are faster because their elements are stored in continuous memory locations, whereas list elements are stored separately and linked, making operations slower.
+
+What I covered:
+
+    Why NumPy is used in ML
+    NumPy arrays vs Python lists
+    Array creation, shape, and indexing
+    Basic operations like mean, min, and max
+    Loading dataset values into NumPy arrays
+    Preparing feature (X) and target (y) arrays
+    This helped me understand how raw data is converted into a format suitable for machine learning models.
